@@ -38,7 +38,7 @@
         from_template: yes
         template_src: "{{ template }}"
         vm_disk:
-          disk1:
+          disk2:
             size_gb: "{{ size }}"
             type: thin
             datastore: "{{ datastore }}"
