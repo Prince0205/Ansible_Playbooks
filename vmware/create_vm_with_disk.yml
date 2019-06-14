@@ -40,7 +40,7 @@
         vm_disk:
           disk2:
             size_gb: "{{ size }}"
-            type: thin
+            #type: thin
             datastore: "{{ datastore }}"
         esxi:
           datacenter: "{{ datacenter }}"
