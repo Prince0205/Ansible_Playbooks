@@ -16,6 +16,8 @@
     - debug: var=manageiq.api_url
     - debug: var=manageiq.api_token
     - debug: var=manageiq.service
+    - debug: var=size
+    - debu: var=datastore
 
     - name: Set the Provider URL
       set_fact:
